@@ -1,0 +1,195 @@
+body {
+    margin: auto;
+    background: -webkit-gradient (linear, left top, left bottom, color-stop(60%, #808d61), color-stop(100%, #aec296));
+    background: -o-linear-gradient (top, #808d61 60%, #aec296 100%);
+    background: linear-gradient(to bottom, #808d61 60%, #aec296 100%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#principal {
+    width: 1120px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+/*Menu Navegacao principal*/
+
+
+.capa {
+    width: 900px;
+    margin: 50px 5px 50px 5px;
+    
+
+}
+
+.capa img {
+    box-shadow: 10px 10px 10px 4px rgba(0,0,0,0.5);
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+ 
+ul {
+    position: sticky;
+    width: 1086px;
+    height: 28px;
+    margin: 0px;
+    padding: 0; 
+    padding-top: 22px;
+    list-style-type: none;
+    text-transform: uppercase; 
+    background-color: #808d61;
+    letter-spacing: 5px;
+    
+    
+}
+
+li {
+    height: 20px;
+    margin: 0 25px 0 25px;
+    float: left;
+    
+}
+
+li a {
+    display: flexbox;
+    color: rgb(10, 10, 10);
+    padding: 30px 30px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 2px 3px 6px rgba(0,0,0,0.6);
+    
+}
+
+li a:hover{
+    background-color:#a1a1a100;
+    color:  rgba(241, 241, 241, 0.932);
+}
+
+.ativo {
+
+    color: rgba(100, 100, 3, 0.932);
+}
+
+/*Selecao Texto*/
+
+#selecao {
+    width: 1080px;
+    height: auto;
+    text-align: justify;
+}
+
+/* Paralax efeito scroll */
+
+.caixa1, .caixa2, .caixa3, .caixa4 {
+    height: 900px;
+    opacity: 45%;
+    position: relative;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo1 {
+    margin-top: 1100px;
+}
+
+.caixa1 p, .caixa2 p, .caixa3 p, .caixa4 p {
+   padding-top: 400px;
+   width: 500px;
+   text-align: center;
+   
+  
+}
+.caixa1 {
+    background-image: url(../imagens/foto1.png);
+    box-shadow: 10px 10px 10px 4px rgba(0,0,0,0.5);
+}
+.caixa2 {
+    background-image: url(../imagens/foto2.png);
+    box-shadow: 10px 10px 10px 4px rgba(0,0,0,0.5);
+
+}
+.caixa3 {
+    background-image: url(../imagens/foto3.png);
+    box-shadow: 10px 10px 10px 4px rgba(0,0,0,0.5);
+}
+.caixa4 {
+    background-image: url(../imagens/foto4.jpg);
+    box-shadow: 10px 10px 10px 4px rgba(0,0,0,0.5);
+}
+
+.conteudo {
+   font-size: 2em;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   text-align: left;
+   text-shadow: 2px 3px 4px rgba(0,0,0,0.6);
+     
+}
+/*Rodape*/
+
+#rodape {
+    margin-top: 100px;
+   color: rgb(0, 0, 0);
+   text-align: center;
+   height: 20px;
+   width: 100%;
+   text-shadow: 2px 3px 5px rgba(0,0,0,0.6);
+   
+}
+/*botao*/
+.btn-topo a {
+    float: right;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    color:rgba(100, 100, 3, 0.932);
+    background-color: rgba(0, 0, 0, 0.932);
+    border-radius: 40px;
+    width: 60px;
+    height: 21px;
+}
+
+.btn {
+    float: right;
+    margin-bottom: 50px;
+}
+
+.btn-contato {
+    float: left;
+}
+
+/* reponsive */
+
+
+ /*****************Intervalos entre um tamanho dos dispositivos ****************/
+        /*Extra small devices (portrait phones, menor que 576px)*/
+        @media (max-width: 575.98px) {}
+
+        /*// Small devices (landscape phones, 576px and up)*/
+        @media (min-width: 576px) and (max-width: 767.98px) {
+           
+        }
+
+        /*// Medium devices (tablets, 768px and up)*/
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          
+        }
+
+        /*// Large devices (desktops, 992px and up)*/
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+          
+        }
+
+        /*// Extra large devices (large desktops, 1200px and up)*/
+        @media (min-width: 1200px) and (max-width: 1599.98px) {
+           
+        }
